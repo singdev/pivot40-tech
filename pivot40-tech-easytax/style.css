@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-image: url("photo.jpeg");
+}
+
+square {
+    height: 50%;
+    width: 100vw;
+    background: linear-gradient(#0000002c,#ffffff);
+    height: 100%;
+}
+
+header img {
+    position: absolute;
+    height: 40%;
+    top: 0;
+    left: 10%;
+}
+
+p{
+    text-align: center;
+    font-family: 'Gruppo', cursive;
+    font-size: 25px;
+    color: #000000;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+#patch{
+    color: #ffffff;
+    background-color: #074b59;
+    border: none;
+    padding: 10px;
+    width: 20%;
+    border-radius: 5px;
+    font-family: 'Gruppo', cursive;
+    font-size: 20px;
+}
+
+#triangle-cn{
+    background-position: bottom;
+    height: 50%;
+    overflow: visible;
+}
+
+.triangle {
+    background: url(./img/triangle_ekena.png);
+    background-position: bottom;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 20;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+#potch{
+    color: #ffffff;
+    background-color: #00758D;
+    border: none;
+    padding: 10px;
+    width: 20%;
+    border-radius: 5px;
+    font-family: 'Gruppo', cursive;
+    font-size: 20px;
+}
+
+
+#putch{
+    color: #ffffff;
+    background-color: #074b59;
+    border: none;
+    padding: 10px;
+    width: 20%;
+    border-radius: 5px;
+    font-family: 'Gruppo', cursive;
+    font-size: 20px;
+}
+
+
+button {
+    width: 400px;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width: 500px){
+}
