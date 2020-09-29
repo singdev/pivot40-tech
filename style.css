@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.square {
+    height: 50%;
+    width: 100vw;
+    background: linear-gradient(#0000002c,#ffffff);
+    height: 100%;
+}
+
+header img {
+    position: absolute;
+    width: 10%;
+    top: 0;
+    left: 10%;
+    opacity: 0.8;
+}
+
+p{
+    text-align: center;
+    font-family: 'Gruppo', cursive;
+    font-size: 25px;
+    color: #000000;
+    font-weight: bold;
+    padding: 32px;
+    line-height: 1.5em;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    flex-wrap: wrap;
+    z-index: 300;
+}
+
+body {
+    background-position: bottom;
+    width: 100vw;
+    height: 100vh;
+}
+
+.buttons {
+    z-index: 30;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+#potch{
+    color: #ffffff;
+    background-color: #00758D;
+}
+
+
+#putch{
+    color: #ffffff;
+    background-color: #074b59;
+}
+
+#patch{
+    color: #ffffff;
+    background-color: #074b59;
+}
+
+.button {
+    width: 400px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Gruppo', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.4s;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
